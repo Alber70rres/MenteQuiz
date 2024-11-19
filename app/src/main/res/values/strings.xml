@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">MenteQuiz</string>
+
+    <string name="titleLogin">Iniciar Sesión</string>
+    <string name="user">E-Mail</string>
+    <string name="password">Contraseña</string>
+    <string name="btnIniciar">Iniciar Sesión</string>
+
+    <string name="titleRegister">Registrarse</string>
+    <string name="nameRegister">Nombres</string>
+    <string name="gmailRegister">Correo</string>
+    <string name="ageRegister">Edad</string>
+    <string name="btnRegister">Registrarse</string>
+    <string name="passwordRegister">Contraseña</string>
+
+    <string name="homeTitle">Pagina Principal</string>
+    <string name="homeLogout">Cerrar Sesión</string>
+    <string name="homeWelcome">Bienvenido</string>
+    <string name="homeOption">---------------------O---------------------</string>
+    <string name="btnChangeRegister">Crear Cuenta</string>
+    <string name="homeOption2">---------------------O---------------------</string>
+    <string name="btnChangeLogin">Ingresar</string>
+
+    <string name="pregunta">Cual es el hacker mas potente y peligroso del mundo</string>
+    <string name="AQuestion">anonimous</string>
+    <string name="BQuestion">Hackerandom</string>
+    <string name="CQuestion">kevin mintic</string>
+    <string name="DQuestion">Adrian noseque</string>
+    <string name="btnSiguiente">Siguiente</string>
+    <string name="noQuestion">Pregunta No</string>
+    <string name="textoNumero">10</string>
+    <string name="cerrarSesion">Salir del cuestionario</string>
+
+    <string name="finalizadoTitle">Haz terminado el cuestionario</string>
+    <string name="finalizadoCalification">Tu Calificación es</string>
+    <string name="finalizadoDesempeño">Tu desempeño es</string>
+    /// aqui se cocatena nombre antes y al final el desempeño.. Alberto tu desempeño es mal, normal
+    o exelente
+    <string name="btnInicio">Salir</string>
+    <string name="btnOtravez">Intentar Otravez</string>
+    <string name="finalizadoNumber">4.76</string>
+
+    <string name="btnStarPrueba">Comenzar Prueba</string>
+    <string name="btnCloseSesion">Cerrar Sesión</string>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Finalizado">
+
+    <TextView
+        android:id="@+id/finalizadoTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/finalizadoTitle"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAgain"
+        android:layout_width="183dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="52dp"
+        android:onClick="IntentarOtravez"
+        android:text="@string/btnOtravez"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/salirInicio" />
+
+    <Button
+        android:id="@+id/salirInicio"
+        android:layout_width="111dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/btnPrincipal"
+        android:onClick="CerrarSesion"
+        android:text="@string/btnInicio"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/desempeño" />
+
+    <TextView
+        android:id="@+id/calificatioInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/finalizadoCalification"
+        android:textColor="#E91E63"
+        android:textColorLink="#9C27B0"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/finalizadoTitle" />
+
+    <TextView
+        android:id="@+id/numberCalification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/finalizadoNumber"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calificatioInfo" />
+
+    <TextView
+        android:id="@+id/desempeño"
+        android:layout_width="172dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/finalizadoDesempeño"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numberCalification" />
+</androidx.constraintlayout.widget.ConstraintLayout>

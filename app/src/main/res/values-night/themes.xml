@@ -1,0 +1,9 @@
+<!-- res/values-night/themes.xml -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema base para modo oscuro -->
+    <style name="Base.Theme.MenteQuiz" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Color del texto en modo oscuro -->
+        <!-- Aquí puedes definir otros colores específicos para el modo oscuro si es necesario -->
+         <item name="colorPrimary">@color/white</item>
+    </style>
+</resources>
